@@ -1,0 +1,50 @@
+.title {
+  color: #444444;
+  font-family: OpenSans-light;
+  font-size: 36px;
+}
+.add-container {
+  margin-top: 1em;
+}
+form {
+    display: inline-block;
+    width: 50%;
+}
+.btn-primary {
+  border: none;
+  background: #0082d4;
+  padding: .7em 2em;
+  border-radius: 2px;
+  margin-left: 2em;
+  font-size: 16px;
+  color: #fff;
+}
+.btn-disabled {
+  border: none;
+  background: #8a9da7;
+  padding: .7em 2em;
+  border-radius: 2px;
+  margin-left: 2em;
+  font-size: 16px;
+  color: #fff;
+  cursor: not-allowed;
+}
+.text-input {
+  border: 1px solid #E2E7EC;
+  width: 70%;
+  border-radius: 2px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30"><text x="5" y="24" style="font: bold 24px Arial;">+</text></svg>') no-repeat;
+  box-sizing: border-box;
+  font: 16px;
+  height: 38px;
+  padding-left: 25px;
+  vertical-align: middle;
+}
+
+::placeholder {
+  color: #0082d4;
+}
+
+.error-msg {
+  color: red;
+}
